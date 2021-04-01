@@ -61,14 +61,14 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Jessie Muir</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Muir, Jessie</meta>
-		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Bernard Miall</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Miall, Bernard</meta>
 		<meta property="se:name.person.full-name" refines="#translator-2">Arthur Bernard Miall</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Bernard_Miall</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n82032417</meta>
-		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
