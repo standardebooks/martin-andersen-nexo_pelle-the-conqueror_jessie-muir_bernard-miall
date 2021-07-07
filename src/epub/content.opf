@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/martin-andersen-nexo/pelle-the-conqueror/jessie-muir_bernard-miall</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-07-07T22:51:27Z</dc:date>
+		<meta property="dcterms:modified">2021-07-07T22:51:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -24,6 +24,7 @@
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
@@ -38,8 +39,9 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">As a poor boy grows to a man he becomes determined to solve the plight of his fellow men.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Pelle is still just a young boy when his father decides to move them from Sweden to the Danish island of Bornholm in search of riches. Those riches—of course—being nonexistent, they fall into the life of farm labourers. As Pelle grows up among the other lowly and poor residents of the island, their cares and worries seep into him, and he finds himself part of a greater struggle for their dignity.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Pelle the Conqueror&lt;/i&gt; has been compared to &lt;a href="https://standardebooks.org/ebooks/victor-hugo"&gt;Victor Hugo&lt;/a&gt;’s &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood" lang="fr"&gt;Les Misérables&lt;/a&gt;&lt;/i&gt; in its themes and scope. &lt;a href="https://standardebooks.org/ebooks/martin-andersen-nexo"&gt;Martin Andersen Nexø&lt;/a&gt; had become involved in the Social Democratic movement in Denmark that flourished after the turn of the 19th century, and this work follows closely his journalistic observations of the struggles of the people. Published across four books between 1906 and 1910, the story was immensely popular, and the first in particular is still widely read in Danish schools. The first book was also translated to film in 1987 starring Max von Sydow as Father Lasse, and winning both at Cannes and the Oscars.&lt;/p&gt;
+			&lt;p&gt;Pelle is still just a young boy when his father decides to move them from Sweden to the Danish island of Bornholm in search of riches. Those riches—of course—being nonexistent, they fall into the life of farm laborers. As Pelle grows up among the other lowly and poor residents of the island, their cares and worries seep into him, and he finds himself part of a greater struggle for their dignity.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Pelle the Conqueror&lt;/i&gt; has been compared to &lt;a href="https://standardebooks.org/ebooks/victor-hugo"&gt;Victor Hugo&lt;/a&gt;’s &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood" lang="fr"&gt;Les Misérables&lt;/a&gt;&lt;/i&gt; in its themes and scope. &lt;a href="https://standardebooks.org/ebooks/martin-andersen-nexo"&gt;Nexø&lt;/a&gt; had become involved in the Social Democratic movement in Denmark that flourished after the turn of the 19th century, and this work closely follows his journalistic observations of the struggles of the people. It was published in four books between 1906 and 1910, and was immensely popular; the first book in particular is still widely read in Danish schools, and was made in to an award-winning 1987 film starring Max von Sydow as Father Lasse.&lt;/p&gt;
+			&lt;p&gt;In this Standard Ebooks edition books one and four are translated by Jesse Muir, while books two and three are translated by Bernard Miall.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7791</dc:source>
@@ -49,8 +51,8 @@
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.40883</dc:source>
 		<dc:source>https://archive.org/details/cu31924026295414</dc:source>
 		<dc:source>https://archive.org/details/pelleconqueror00muirgoog</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">433998</meta>
+		<meta property="se:reading-ease.flesch">80.82</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pelle_the_Conqueror</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/martin-andersen-nexo_pelle-the-conqueror_jessie-muir_bernard-miall</meta>
 		<dc:creator id="author">Martin Andersen Nexø</dc:creator>
@@ -97,6 +99,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
