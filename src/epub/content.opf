@@ -51,7 +51,7 @@
 		<dc:source>https://archive.org/details/pelleconqueror00muirgoog</dc:source>
 		<meta property="se:word-count">434025</meta>
 		<meta property="se:reading-ease.flesch">80.82</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pelle_the_Conqueror</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pelle_the_Conqueror_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/martin-andersen-nexo_pelle-the-conqueror_jessie-muir_bernard-miall</meta>
 		<dc:creator id="author">Martin Andersen Nexø</dc:creator>
 		<meta property="file-as" refines="#author">Nexø, Martin Andersen</meta>
