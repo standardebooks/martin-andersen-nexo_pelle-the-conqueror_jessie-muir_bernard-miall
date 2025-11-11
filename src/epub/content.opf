@@ -71,6 +71,11 @@
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n82032417</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<dc:contributor id="writer-of-foreword">Otto Jespersen</dc:contributor>
+		<meta property="file-as" refines="#writer-of-foreword">Jespersen, Otto</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-foreword">https://en.wikipedia.org/wiki/Otto_Jespersen</meta>
+		<meta property="se:url.authority.nacoaf" refines="#writer-of-foreword">http://id.loc.gov/authorities/names/n79096864</meta>
+		<meta property="role" refines="#writer-of-foreword" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Paul Gauguin</dc:contributor>
 		<meta property="file-as" refines="#artist">Gauguin, Paul</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Eugène Henri Paul Gauguin</meta>
