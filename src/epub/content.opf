@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/martin-andersen-nexo/pelle-the-conqueror/jessie-muir_bernard-miall</dc:identifier>
 		<dc:date>2021-07-07T22:51:27Z</dc:date>
 		<meta property="dcterms:modified">2021-07-07T22:51:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh2008103511</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">As a poor boy grows up to be a man, he becomes determined to solve the plight of his fellow men.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Pelle is still just a young boy when his father decides to move them from Sweden to the Danish island of Bornholm in search of riches. Those riches—of course—being nonexistent, they fall into the life of farm laborers. As Pelle grows up among the other lowly and poor residents of the island, their cares and worries seep into him, and he finds himself part of a greater struggle for their dignity.&lt;/p&gt;
@@ -50,37 +51,39 @@
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.40883</dc:source>
 		<dc:source>https://archive.org/details/cu31924026295414</dc:source>
 		<dc:source>https://archive.org/details/pelleconqueror00muirgoog</dc:source>
-		<meta property="se:word-count">425713</meta>
-		<meta property="se:reading-ease.flesch">80.82</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pelle_the_Conqueror_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/martin-andersen-nexo_pelle-the-conqueror_jessie-muir_bernard-miall</meta>
+		<meta property="schema:wordCount">425713</meta>
+		<meta property="schema:educationalLevel">80.82</meta>
+		<link href="https://en.wikipedia.org/wiki/Pelle_the_Conqueror_(novel)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/martin-andersen-nexo_pelle-the-conqueror_jessie-muir_bernard-miall" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Martin Andersen Nexø</dc:creator>
 		<meta property="file-as" refines="#author">Nexø, Martin Andersen</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Martin_Andersen_Nex%C3%B8</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79104386</meta>
+		<link href="https://en.wikipedia.org/wiki/Martin_Andersen_Nex%C3%B8" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79104386.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Jessie Muir</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Muir, Jessie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n2006075578</meta>
+		<link href="https://id.loc.gov/authorities/names/n2006075578.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Bernard Miall</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Miall, Bernard</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">Arthur Bernard Miall</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Bernard_Miall</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n82032417</meta>
+		<meta property="schema:alternateName" refines="#translator-2">Arthur Bernard Miall</meta>
+		<link href="https://en.wikipedia.org/wiki/Bernard_Miall" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82032417.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="writer-of-foreword">Otto Jespersen</dc:contributor>
 		<meta property="file-as" refines="#writer-of-foreword">Jespersen, Otto</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-foreword">https://en.wikipedia.org/wiki/Otto_Jespersen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-foreword">http://id.loc.gov/authorities/names/n79096864</meta>
+		<link href="https://en.wikipedia.org/wiki/Otto_Jespersen" refines="#writer-of-foreword" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79096864.html" refines="#writer-of-foreword" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-foreword" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Paul Gauguin</dc:contributor>
 		<meta property="file-as" refines="#artist">Gauguin, Paul</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Eugène Henri Paul Gauguin</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Paul_Gauguin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055546</meta>
+		<meta property="schema:alternateName" refines="#artist">Eugène Henri Paul Gauguin</meta>
+		<link href="https://en.wikipedia.org/wiki/Paul_Gauguin" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79055546.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Eric Eldred</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Eldred, Eric</meta>
@@ -93,11 +96,11 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -106,7 +109,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
